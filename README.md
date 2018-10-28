@@ -8,4 +8,4 @@ chmod +x oneliner.py
 mv oneliner.py /usr/bin/rs
 
 Usage:
-rs -i <host> -p <port> -l <langauge>
+rs -i \<host\> -p \<port\> -l \<langauge\>
