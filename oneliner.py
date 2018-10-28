@@ -13,7 +13,7 @@
 import argparse, netifaces as ni, pyperclip, re, sys
 
 def get_args():
-	parser = argparse.ArgumentParser(usage="Usage: oneliner.py -l <localhost> -p <port> -s <script_type>")
+	parser = argparse.ArgumentParser(usage="Usage: oneliner.py -l <localhost> -p <port> -l <language>")
 	parser.add_argument("-i", "--host", dest="host", help="Enter the IP address or network interface that the reverse shell will connect back to")
 	parser.add_argument("-p", "--port", dest="port", help="Enter the port number that you're listening on")
 	parser.add_argument("-l", "--lanugage", dest="lang", help="Enter the language type you'd like the one liner for(python, bash, perl, php, ruby, nc, java, ncalt)")
